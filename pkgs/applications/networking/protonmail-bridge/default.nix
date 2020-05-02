@@ -2,7 +2,7 @@
 , libsecret, libGL, libpulseaudio, glib, wrapQtAppsHook, mkDerivation }:
 
 let
-  version = "1.2.3-1";
+  version = "1.2.6-1";
 
   description = ''
     An application that runs on your computer in the background and seamlessly encrypts
@@ -16,7 +16,7 @@ in mkDerivation {
 
   src = fetchurl {
     url = "https://protonmail.com/download/protonmail-bridge_${version}_amd64.deb";
-    sha256 = "032ggk9fvd19fbsqkzwzwh0hpyg8gpkrin71di7zsx6ias5innw1";
+    sha256 = "0iy2x9qnvhqrv6df0mjmxss9jddd64gh8wbadkn0cvrczcbwkz9l";
   };
 
   sourceRoot = ".";
